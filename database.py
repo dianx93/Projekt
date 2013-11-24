@@ -71,5 +71,13 @@ armors=[armor(' ',0," "),
         armor('Cloak',5,"c"), #1. mobi drop
         armor('Chainmail',20,"m")] #2. mobi drop
 
-
-
+stuff={#[tüüp,number]
+    'c':['armor',1],
+    'm':['armor',2],
+    'b':['weapon',1],
+    's':['weapon',2],
+    'T':['monster',1],
+    'M':['monster',2],
+    'H':['monster',3],
+    'B':['monster',4],
+    }
