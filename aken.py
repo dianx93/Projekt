@@ -16,6 +16,16 @@ class Kaart(Frame):
         self.photohe=PhotoImage(file=get_pic(str(hero.pot)))
         self.Heal=Button(self,bg="black",relief=FLAT,image=self.photohe,command=self.heal).grid(column=13,row=7,sticky=(N,S,W,E))
 
+    def refwep(self):
+        self.photowep=PhotoImage(file=get_pic(str(hero.W.pic)))
+        self.wepinf=Label(self,bg="black",fg="red",font=("Matura MT Script Capitals",9),text=hero.W.name+"\n damage- "+str(hero.W.mindam)+"-"+str(hero.W.maxdam)+"\n"+"critical chance: "+str(int(hero.W.crit*100))+"%").grid(column=12,row=6,columnspan=2,sticky=(N,S,W,E))
+        self.wep=Label(self,bg="black",image=self.photowep).grid(column=11,row=6,sticky=(N,S,W,E))
+
+    def refarm(self):
+        self.photoarm=PhotoImage(file=get_pic(str(hero.A.pic)))
+        self.arminf=Label(self,bg="black",fg="red",font=("Matura MT Script Capitals",9),text=hero.A.name+"\n defence- "+str(hero.A.defence)).grid(column=12,row=5,columnspan=2,sticky=(N,S,W,E))
+        self.arm=Label(self,bg="black",image=self.photoarm).grid(column=11,row=5,sticky=(N,S,W,E))
+
     def press(self,e):
         key = e.keysym
 
@@ -89,6 +99,19 @@ class Kaart(Frame):
             self.refpot()
             delfrommap(-1,0)
             UP()
+        elif e in stuff:
+            if stuff[e][0]=='armor':
+                hero.uusarmor(stuff[e][1])
+                self.refarm()
+                delfrommap(-1,0)
+                UP()
+            elif stuff[e][0]=='weapon':
+                hero.uusrelv(stuff[e][1])
+                self.refwep()
+                delfrommap(-1,0)
+                UP()
+            elif stuff[e][0]=='monster':
+                hero.uuskoletis(stuff[e][1])#lahing...
         self.refmap()
     def down(self):
         e=DOWN()
@@ -97,6 +120,19 @@ class Kaart(Frame):
             self.refpot()
             delfrommap(1,0)
             DOWN()
+        elif e in stuff:
+            if stuff[e][0]=='armor':
+                hero.uusarmor(stuff[e][1])
+                self.refarm()
+                delfrommap(1,0)
+                DOWN()
+            if stuff[e][0]=='weapon':
+                hero.uusrelv(stuff[e][1])
+                self.refwep()
+                delfrommap(1,0)
+                DOWN()
+            if stuff[e][0]=='monster':
+                hero.uuskoletis(stuff[e][1])
         self.refmap()
     def right(self):
         e=RIGHT()
@@ -105,6 +141,19 @@ class Kaart(Frame):
             self.refpot()
             delfrommap(0,1)
             RIGHT()
+        elif e in stuff:
+            if stuff[e][0]=='armor':
+                hero.uusarmor(stuff[e][1])
+                self.refarm()
+                delfrommap(0,1)
+                RIGHT()
+            if stuff[e][0]=='weapon':
+                hero.uusrelv(stuff[e][1])
+                self.refwep()
+                delfrommap(0,1)
+                RIGHT()
+            if stuff[e][0]=='monster':
+                hero.uuskoletis(stuff[e][1])
         self.refmap()
     def left(self):
         e=LEFT()
@@ -113,6 +162,19 @@ class Kaart(Frame):
             self.refpot()
             delfrommap(0,-1)
             LEFT()
+        elif e in stuff:
+            if stuff[e][0]=='armor':
+                hero.uusarmor(stuff[e][1])
+                self.refarm()
+                delfrommap(0,-1)
+                LEFT()
+            if stuff[e][0]=='weapon':
+                hero.uusrelv(stuff[e][1])
+                self.refwep()
+                delfrommap(0,-1)
+                LEFT()
+            if stuff[e][0]=='monster':
+                hero.uuskoletis(stuff[e][1])
         self.refmap()
     def attack(self):
         print("ATTACK")
