@@ -1,7 +1,7 @@
 from tkinter.ttk import *
 from tkinter import *
 from map import *
-from lahing import*
+from lahing import *
 
 
 class Kaart(Frame):
@@ -25,6 +25,10 @@ class Kaart(Frame):
         self.photoarm=PhotoImage(file=get_pic(str(hero.A.pic)))
         self.arminf=Label(self,bg="black",fg="red",font=("Matura MT Script Capitals",9),text=hero.A.name+"\n defence- "+str(hero.A.defence)).grid(column=12,row=5,columnspan=2,sticky=(N,S,W,E))
         self.arm=Label(self,bg="black",image=self.photoarm).grid(column=11,row=5,sticky=(N,S,W,E))
+
+    def refelud(self):
+        self.elud=Label(self,bg="black",fg="red",text=(hero.hp,"/100")).grid(row=1,column=11,sticky=(N,W,S,E))
+        self.eludebar=Progressbar(self,value=hero.hp).grid(row=1,column=12,columnspan=2,sticky=(N,W,S,E))
 
     def press(self,e):
         key = e.keysym
@@ -134,6 +138,7 @@ class Kaart(Frame):
             if stuff[e][0]=='monster':
                 hero.uuskoletis(stuff[e][1])
         self.refmap()
+
     def right(self):
         e=RIGHT()
         if e=="p" and hero.pot!=5:
@@ -154,7 +159,9 @@ class Kaart(Frame):
                 RIGHT()
             if stuff[e][0]=='monster':
                 hero.uuskoletis(stuff[e][1])
+                mon=1
         self.refmap()
+
     def left(self):
         e=LEFT()
         if e=="p" and hero.pot!=5:
@@ -176,12 +183,18 @@ class Kaart(Frame):
             if stuff[e][0]=='monster':
                 hero.uuskoletis(stuff[e][1])
         self.refmap()
+
     def attack(self):
-        print("ATTACK")
+        lahing('a',hero)
+        self.refelud()
     def defend(self):
-        print("DEFEND")
+        lahing('d',hero)
+        self.refelud()
     def heal(self):
-        print("HEAL")
+        hero.Heal()
+        self.refpot()
+        self.refelud()
+
     def press(self,e):
         key = e.keysym
 
