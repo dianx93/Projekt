@@ -26,13 +26,18 @@ class char:
     def uuspot(self):
         self.pot+=1
     def Heal(self):
-        if self.pot>0:
+        if self.hp==100:
+            return
+        elif self.hp>50 and not self.pot<1:
+            self.hp=100
+            self.pot-=1
+        elif self.hp<=50 and not self.pot<1:
             self.hp+=50
             self.pot-=1
             print("You healed yourself.")
         elif self.pot<1:
             print("You don't have any potions!")
-            
+
 #koletis
 
 class monster:

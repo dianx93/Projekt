@@ -35,6 +35,8 @@ def lahing(tegevus,char):                #monster=number
                 print('You defended successfully!')
     if char.M.hp<=0:
         print("The",char.M.name,"is DEAD!")    #lahing over
+        char.uuskoletis(0)
+        #koletis kustub kaardilt
     if char.hp<=0:
         print("You are DEAD!")              #GAME OVER
         
