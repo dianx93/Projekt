@@ -1,5 +1,6 @@
 from tkinter import *
 from pics import *
+
 def loo_kaart(kaart):
     Kaart="maps/"+kaart
     file=open(Kaart)

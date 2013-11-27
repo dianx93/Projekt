@@ -116,6 +116,7 @@ class Kaart(Frame):
                 UP()
             elif stuff[e][0]=='monster':
                 hero.uuskoletis(stuff[e][1])
+                hero.battle=True
                 hero.M.location=(-1,0)#lahing...
         self.refmap()
     def down(self):
@@ -140,9 +141,7 @@ class Kaart(Frame):
                 hero.uuskoletis(stuff[e][1])
                 hero.battle=True
                 hero.M.location=(1,0)
-                while hero.battle==True:
-
-                DOWN()
+                #kunagi DOWN()
         self.refmap()
 
     def right(self):
@@ -165,6 +164,7 @@ class Kaart(Frame):
                 RIGHT()
             if stuff[e][0]=='monster':
                 hero.uuskoletis(stuff[e][1])
+                hero.battle=True
                 hero.M.location=(0,1)
         self.refmap()
 
@@ -188,15 +188,37 @@ class Kaart(Frame):
                 LEFT()
             if stuff[e][0]=='monster':
                 hero.uuskoletis(stuff[e][1])
+                hero.battle=True
                 hero.M.location=(0,-1)
         self.refmap()
 
     def attack(self):
         lahing('a',hero)
         self.refelud()
+        if not hero.battle:
+            if hero.M.location[0]==0:
+                if hero.M.location[1]==1:
+                    self.right()
+                else:
+                    self.left()
+            elif hero.M.location[0]==-1:
+                self.up()
+            else:
+                self.down()
     def defend(self):
         lahing('d',hero)
         self.refelud()
+        if not hero.battle:
+            print('lahingust väljas')
+            if hero.M.location[0]==0:
+                if hero.M.location[1]==1:
+                    self.right()
+                else:
+                    self.left()
+            elif hero.M.location[0]==-1:
+                self.up()
+            else:
+                self.down()
     def heal(self):
         hero.Heal()
         self.refpot()
@@ -204,15 +226,15 @@ class Kaart(Frame):
 
     def press(self,e):
         key = e.keysym
-
-        if key == "Left" or key=="a":
-            self.left()
-        elif key == "Right" or key=="d":
-            self.right()
-        elif key == "Up" or key=="w":
-            self.up()
-        elif key == "Down" or key=="s": 
-            self.down()
+        if not hero.battle:
+            if key == "Left" or key=="a":
+                self.left()
+            elif key == "Right" or key=="d":
+                self.right()
+            elif key == "Up" or key=="w":
+                self.up()
+            elif key == "Down" or key=="s":
+                self.down()
         elif key == "Escape":
             self.quit()
     def update(self):

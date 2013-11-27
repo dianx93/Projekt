@@ -1,7 +1,7 @@
 from random import *
 from database import *
 from map import delfrommap
-from aken import LEFT,RIGHT,DOWN,UP
+#from aken import LEFT,RIGHT,DOWN,UP
 
 def lahing(tegevus,char):                #monster=number
     #mon=char.uuskoletis(monster)
