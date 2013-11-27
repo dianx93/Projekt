@@ -17,6 +17,7 @@ class char:
         self.A=armors[0]
         self.M=None
         self.boonus=0
+        self.battle=False
     def uusrelv(self, W):
         self.W=weapons[W]
     def uusarmor(self, A):
@@ -47,6 +48,7 @@ class monster:
         self.attack=attack
         self.defence=defence
         self.pic=pic
+        self.location=(0,0)
 monsters=[monster(' ',0,0," "),
           monster('Teddy',10,5,"T"), #1. mob (drop +1 pot)
           monster('Mummy',15,10,"M"), #2. mob (drop +2 pot)

@@ -115,7 +115,8 @@ class Kaart(Frame):
                 delfrommap(-1,0)
                 UP()
             elif stuff[e][0]=='monster':
-                hero.uuskoletis(stuff[e][1])#lahing...
+                hero.uuskoletis(stuff[e][1])
+                hero.M.location=(-1,0)#lahing...
         self.refmap()
     def down(self):
         e=DOWN()
@@ -137,6 +138,11 @@ class Kaart(Frame):
                 DOWN()
             if stuff[e][0]=='monster':
                 hero.uuskoletis(stuff[e][1])
+                hero.battle=True
+                hero.M.location=(1,0)
+                while hero.battle==True:
+
+                DOWN()
         self.refmap()
 
     def right(self):
@@ -159,7 +165,7 @@ class Kaart(Frame):
                 RIGHT()
             if stuff[e][0]=='monster':
                 hero.uuskoletis(stuff[e][1])
-                mon=1
+                hero.M.location=(0,1)
         self.refmap()
 
     def left(self):
@@ -182,6 +188,7 @@ class Kaart(Frame):
                 LEFT()
             if stuff[e][0]=='monster':
                 hero.uuskoletis(stuff[e][1])
+                hero.M.location=(0,-1)
         self.refmap()
 
     def attack(self):

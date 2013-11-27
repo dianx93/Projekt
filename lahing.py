@@ -1,5 +1,7 @@
 from random import *
 from database import *
+from map import delfrommap
+from aken import LEFT,RIGHT,DOWN,UP
 
 def lahing(tegevus,char):                #monster=number
     #mon=char.uuskoletis(monster)
@@ -35,7 +37,9 @@ def lahing(tegevus,char):                #monster=number
                 print('You defended successfully!')
     if char.M.hp<=0:
         print("The",char.M.name,"is DEAD!")    #lahing over
+        delfrommap(char.M.location[0],char.M.location[1])
         char.uuskoletis(0)
+        char.battle=False
         #koletis kustub kaardilt
     if char.hp<=0:
         print("You are DEAD!")              #GAME OVER
