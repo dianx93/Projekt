@@ -65,7 +65,7 @@ class weapon:
         self.crit=crit/100
         self.pic=pic
 weapons=[weapon(' ',0,12,1," "),
-         weapon('Branch',2,10,5,"b"), #1. mobi drop
+         weapon('Branch',5,15,5,"b"), #1. mobi drop
          weapon('Sword',10,20,10,"s")] #2. mobi drop
 
 

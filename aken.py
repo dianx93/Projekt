@@ -32,11 +32,13 @@ class Kaart(Frame):
 
     def refmon(self):
         self.mName=Label(self,bg="black",fg="Red",text=hero.M.name,font=("Matura MT Script Capitals",12)).grid(column=11,row=2,columnspan=3,sticky=(N,S,W,E))
-        self.melud=Label(self,bg="black",fg="Red",text=(hero.M.hp,"/100"),font=("Matura MT Script Capitals",9)).grid(row=3,column=11,sticky=(N,S,W,E))
-        if hero.M.name!='':
+        if hero.M.name!=' ':
+            self.melud=Label(self,bg="black",fg="Red",text=(hero.M.hp,"/100"),font=("Matura MT Script Capitals",9)).grid(row=3,column=11,sticky=(N,S,W,E))
             self.meludebar=Progressbar(self,value=hero.M.hp).grid(row=3,column=12,columnspan=2,sticky=(N,W,S,E))
         else:
-            self.meludebar=Label(self,bg="black",image=self.photoblank).grid(column=12,row=3,sticky=(N,S,W,E))
+            self.melud=Label(self,bg="black",fg="Red",text=(""),font=("Matura MT Script Capitals",9)).grid(row=3,column=11,sticky=(N,S,W,E))
+            # must taust
+            # self.meludebar=Label(self,bg="black",image=self.photoblank).grid(column=12,row=3,sticky=(N,S,W,E))
     def press(self,e):
         key = e.keysym
 
@@ -85,6 +87,7 @@ class Kaart(Frame):
         self.photoarm=PhotoImage(file=get_pic(hero.A.pic))
         style=Style()
         style.configure("SD",background="black")
+        self.Title=Label(self,bg="black",fg="Red",text="Something Dungeon",font=("Matura MT Script Capitals",20)).grid(column=0,row=0,columnspan=10,sticky=(N,S,W,E))
         self.Name=Label(self,bg="black",fg="Red",text=hero.name,font=("Matura MT Script Capitals",12)).grid(column=11,row=0,columnspan=3,sticky=(N,S,W,E))
         self.wep=Label(self,bg="black",image=self.photowep).grid(column=11,row=5,sticky=(N,S,W,E))
         self.arm=Label(self,bg="black",image=self.photoarm).grid(column=11,row=4,sticky=(N,S,W,E))
