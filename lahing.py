@@ -37,12 +37,12 @@ def lahing(tegevus,char):                #monster=number
                 print('You defended successfully!')
     if char.M.hp<=0:
         print("The",char.M.name,"is DEAD!")    #lahing over
-        delfrommap(char.M.location[0],char.M.location[1])
+        delfrommap(char.mloc[0],char.mloc[1])
         char.uuskoletis(0)
         char.battle=False
         #koletis kustub kaardilt
     if char.hp<=0:
         print("You are DEAD!")              #GAME OVER
         
-    print("koletise elud",char.M.hp)           #lahingu kontroll...
-    print("sinu elud",char.hp)              #lahingu kontroll...
+    #print("koletise elud",char.M.hp)           #lahingu kontroll...
+    #print("sinu elud",char.hp)              #lahingu kontroll...
