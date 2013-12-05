@@ -40,6 +40,8 @@ def lahing(tegevus,char):                #monster=number
         print("The",char.M.name,"is DEAD!")    #lahing over
         delfrommap(char.mloc[0],char.mloc[1])
         if char.M.name=="Something Bad Guy":
+            char.M.hp=100
+            char.uuskoletis(0)
             char.battle="end"
         else:
             char.M.hp=100

@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="aken.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="aken.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aken.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="296" column="39" selection-start="14510" selection-end="14510" vertical-scroll-proportion="0.6946108" vertical-offset="4800" max-vertical-offset="5882">
+            <state line="292" column="74" selection-start="14127" selection-end="14127" vertical-scroll-proportion="0.0" vertical-offset="4851" max-vertical-offset="5882">
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -46,16 +46,16 @@
       <file leaf-file-name="map2.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/maps/map2.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+            <state line="8" column="0" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="database.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/database.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="42" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="1649">
+            <state line="75" column="20" selection-start="1907" selection-end="1907" vertical-scroll-proportion="2.422043" vertical-offset="374" max-vertical-offset="1649">
               <folding />
             </state>
           </provider>
@@ -64,7 +64,7 @@
       <file leaf-file-name="lahing.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lahing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="12" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="969">
+            <state line="43" column="30" selection-start="1597" selection-end="1597" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1003">
               <folding />
             </state>
           </provider>
@@ -73,7 +73,7 @@
       <file leaf-file-name="map.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/map.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="18" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1156">
+            <state line="1" column="18" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1173">
               <folding />
             </state>
           </provider>
@@ -103,10 +103,10 @@
         <option value="C:/Python33/Harjutused/lebatsuturrok.py" />
         <option value="$PROJECT_DIR$/map.py" />
         <option value="$PROJECT_DIR$/pics.py" />
-        <option value="$PROJECT_DIR$/lahing.py" />
-        <option value="$PROJECT_DIR$/database.py" />
         <option value="$PROJECT_DIR$/maps/map2.txt" />
         <option value="$PROJECT_DIR$/aken.py" />
+        <option value="$PROJECT_DIR$/lahing.py" />
+        <option value="$PROJECT_DIR$/database.py" />
       </list>
     </option>
   </component>
@@ -181,12 +181,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="vcs.Git" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -490,9 +490,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26427525" sideWeight="0.65008295" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34860885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34860885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -573,20 +573,6 @@
         <state line="16" column="28" selection-start="290" selection-end="290" vertical-scroll-proportion="0.46495727" vertical-offset="0" max-vertical-offset="585" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="42" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1649">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lahing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="12" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0" vertical-offset="478" max-vertical-offset="969">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/map.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="18" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="790" max-vertical-offset="1156">
@@ -610,10 +596,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aken.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="296" column="39" selection-start="14510" selection-end="14510" vertical-scroll-proportion="0.6946108" vertical-offset="4800" max-vertical-offset="5882">
+        <state line="292" column="74" selection-start="14127" selection-end="14127" vertical-scroll-proportion="0.0" vertical-offset="4851" max-vertical-offset="5882">
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lahing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="30" selection-start="1597" selection-end="1597" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="20" selection-start="1907" selection-end="1907" vertical-scroll-proportion="2.422043" vertical-offset="374" max-vertical-offset="1649">
+          <folding />
         </state>
       </provider>
     </entry>
