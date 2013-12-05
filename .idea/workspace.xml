@@ -26,7 +26,7 @@
       <file leaf-file-name="aken.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aken.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="60" selection-start="4352" selection-end="4352" vertical-scroll-proportion="2.0835655" vertical-offset="646" max-vertical-offset="5151">
+            <state line="296" column="39" selection-start="14510" selection-end="14510" vertical-scroll-proportion="0.6946108" vertical-offset="4800" max-vertical-offset="5882">
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -37,7 +37,7 @@
       <file leaf-file-name="pics.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="24" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+            <state line="9" column="0" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
@@ -46,7 +46,7 @@
       <file leaf-file-name="map2.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/maps/map2.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="47" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="629">
+            <state line="8" column="0" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
@@ -55,7 +55,7 @@
       <file leaf-file-name="database.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="26" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1649">
+            <state line="55" column="42" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="1649">
               <folding />
             </state>
           </provider>
@@ -64,7 +64,7 @@
       <file leaf-file-name="lahing.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lahing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="25" selection-start="1516" selection-end="1516" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+            <state line="28" column="12" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="969">
               <folding />
             </state>
           </provider>
@@ -102,10 +102,11 @@
         <option value="C:/Python33/Harjutused/10. vaheeksam/3. korrutustabel.py" />
         <option value="C:/Python33/Harjutused/lebatsuturrok.py" />
         <option value="$PROJECT_DIR$/map.py" />
-        <option value="$PROJECT_DIR$/maps/map2.txt" />
+        <option value="$PROJECT_DIR$/pics.py" />
         <option value="$PROJECT_DIR$/lahing.py" />
-        <option value="$PROJECT_DIR$/aken.py" />
         <option value="$PROJECT_DIR$/database.py" />
+        <option value="$PROJECT_DIR$/maps/map2.txt" />
+        <option value="$PROJECT_DIR$/aken.py" />
       </list>
     </option>
   </component>
@@ -141,6 +142,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -175,14 +177,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="C:/Python33/Harjutused" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -453,7 +454,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -464,7 +465,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3502455" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34860885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34860885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -504,18 +505,52 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/teksti_visuaal (Karl Mumm)/Nimeilu.py">
+    <entry file="file://$PROJECT_DIR$/aken.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="36" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="680" />
+        <state line="13" column="0" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="5151">
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/teksti_visuaal (Karl Mumm)/Nimepilt pixboard 2D.py">
+    <entry file="file://$PROJECT_DIR$/pics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="24" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="969" />
+        <state line="17" column="24" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maps/map2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="41" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="26" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.0" vertical-offset="1003" max-vertical-offset="1649">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lahing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="25" selection-start="1516" selection-end="1516" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="18" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1173">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://C:/Python33/Harjutused/10. vaheeksam/3. korrutustabel.py">
@@ -528,26 +563,6 @@
         <state line="16" column="28" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="510" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/doubledragon (Rain Eric Haamer)/doubledragon2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="0.82479787" vertical-offset="0" max-vertical-offset="2346" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/imelik_asi (Rain Eric Haamer)/pyxtestrun.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="19" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.5931624" vertical-offset="690" max-vertical-offset="1275" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/teksti_visuaal (Karl Mumm)/Nimeilu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="36" selection-start="274" selection-end="274" vertical-scroll-proportion="0.07008547" vertical-offset="95" max-vertical-offset="680" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/teksti_visuaal (Karl Mumm)/Nimepilt pixboard 2D.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="24" selection-start="899" selection-end="899" vertical-scroll-proportion="0.24444444" vertical-offset="384" max-vertical-offset="969" />
-      </provider>
-    </entry>
     <entry file="file://C:/Python33/Harjutused/10. vaheeksam/3. korrutustabel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="9" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323" />
@@ -558,9 +573,16 @@
         <state line="16" column="28" selection-start="290" selection-end="290" vertical-scroll-proportion="0.46495727" vertical-offset="0" max-vertical-offset="585" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maps/map2.txt">
+    <entry file="file://$PROJECT_DIR$/database.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="47" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+        <state line="55" column="42" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1649">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lahing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="12" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0" vertical-offset="478" max-vertical-offset="969">
           <folding />
         </state>
       </provider>
@@ -574,28 +596,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="24" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="612">
+        <state line="9" column="0" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lahing.py">
+    <entry file="file://$PROJECT_DIR$/maps/map2.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="25" selection-start="1516" selection-end="1516" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="26" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1649">
+        <state line="8" column="0" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aken.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="60" selection-start="4352" selection-end="4352" vertical-scroll-proportion="2.0835655" vertical-offset="646" max-vertical-offset="5151">
+        <state line="296" column="39" selection-start="14510" selection-end="14510" vertical-scroll-proportion="0.6946108" vertical-offset="4800" max-vertical-offset="5882">
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>

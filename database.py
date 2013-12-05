@@ -51,9 +51,9 @@ class monster:
         self.pic=pic
 monsters=[monster(' ',0,0," "),
           monster('Teddy',10,5,"T"), #1. mob (drop +1 pot)
-          monster('Mummy',15,10,"M"), #2. mob (drop +2 pot)
-          monster('Mihkel-Hunter',30,10,"H"),
-          monster('Something Bad Guy',60,40,"B")] #3. mob
+          monster('Mummy',15,15,"M"), #2. mob (drop +2 pot)
+          monster('Mihkel-Hunter',30,40,"H"),
+          monster('Something Bad Guy',60,70,"B")] #3. mob
         
 #relvad
 

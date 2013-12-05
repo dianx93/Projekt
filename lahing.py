@@ -8,7 +8,7 @@ def lahing(tegevus,char):                #monster=number
     if tegevus=='a':
         ca=randint(char.W.mindam,char.W.maxdam)+char.boonus
         char.boonus=0
-        if randint(0,100/char.W.crit)==0:      #crit
+        if randint(1,100/char.W.crit)==1:      #crit
             ca*=2
         if randint(0,1)==0:                 #koletis ründab
             ma=randint(0,char.M.attack)
@@ -25,7 +25,8 @@ def lahing(tegevus,char):                #monster=number
             else:
                 print('Monster defended successfully!')
     elif tegevus=='d':
-        char.boonus+=char.A.defence
+        if char.boonus<=50:
+            char.boonus+=char.A.defence
         if randint(0,1)==1:                 #koletis kaitseb
             print('None of you are brave enough to attack.')
         else:                               #koletis ründab
@@ -38,8 +39,12 @@ def lahing(tegevus,char):                #monster=number
     if char.M.hp<=0:
         print("The",char.M.name,"is DEAD!")    #lahing over
         delfrommap(char.mloc[0],char.mloc[1])
-        char.uuskoletis(0)
-        char.battle=False
+        if char.M.name=="Something Bad Guy":
+            char.battle="end"
+        else:
+            char.M.hp=100
+            char.uuskoletis(0)
+            char.battle=False
         #koletis kustub kaardilt
     if char.hp<=0:
         print("You are DEAD!")              #GAME OVER
