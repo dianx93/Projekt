@@ -49,7 +49,7 @@ class monster:
         self.attack=attack
         self.defence=defence
         self.pic=pic
-monsters=[monster(' ',0,ˇ0," "),
+monsters=[monster(' ',0,0," "),
           monster('Teddy',10,5,"T"), #1. mob (drop +1 pot)
           monster('Mummy',15,15,"M"), #2. mob (drop +2 pot)
           monster('Mihkel-Hunter',30,40,"H"),
