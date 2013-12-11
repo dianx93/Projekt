@@ -296,7 +296,8 @@ class Tiitel(Frame):
 Controls:
 move arrows, attack Q, defend W, heal E.
 Health pots heal 50hp.
-If you defend then you can attack with more force next time.
+If you defend then you can attack with
+more force (depending on your defence) next time.
 If you run into a monster then you can't run away before you kill it.
 If you die, the game ends.''',font=("Matura MT Script Capitals",10)).grid(column=0,row=6,columnspan=2,sticky=(N,S,W,E))
     def press(self,e):
